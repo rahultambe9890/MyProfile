@@ -2,23 +2,39 @@
 <html>
 
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans
+  :ital,wght@1,700&family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,
+700&family=Lobster&family=Princess+Sofia&display=swap" rel="stylesheet">
   <style>
-    ul {
-      list-style: none;
-    }
-
-    ul li::before {
-      content: "\2022";
-      color: red;
-      font-weight: bold;
-      display: inline-block;
-      width: 2em;
-      margin-left: -1em;
-    }
-
+    
+ul li{ 
+  list-style-type: square;
+}
+    
     .intro {
-      background-color: hsl(158, 72%, 72%);
+      background-color: #e74c3c;
+      font-family: 'Josefin Sans', sans-serif;
+      padding-left: 500px;
+      text-shadow: 2px 2px #ecf0f1;
     }
+    .content {
+      padding-left: 380px;
+      font-family: 'Kaushan Script', cursive;
+      border-style: solid;
+      border-color: red;
+      border-width: 2px;
+      border-radius: 10px;
+        }
+body{
+  background-color: #9adef0;
+   transform: scale(1.1);
+   transform-origin: 0 0;
+}
+
   </style>
 </head>
 
@@ -27,13 +43,14 @@
     <h1><U>Career Objectives</U></h1>
   </div>
   <hr>
-  <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH </p>
+  <p class="content">TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS <br> AND HELP ORGANIZATIONAL GROWTH
+  </p>
 
 
   <div class="intro">
     <h1><u>Professional Summary:-</h1> </u>
   </div>
-  <ul>
+  <ul class="content">
     <li> Having 1 years of experience in developing Single page Web Applications using <br>
       <span style="color: red;"> Angular 8,</span> HTML5, CSS3, Bootstrap 5.
 
