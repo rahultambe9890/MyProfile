@@ -15,15 +15,18 @@
       list-style: none;
     }
 
-    ul li::before {
+    ul li::marker {
       content: "\2022";
-      color: red;
+      color: rgb(10, 162, 233);
       font-weight: bold;
-      display: inline-block;
+      display:block;
       width: 2em;
       margin-left: -1em;
       
     }
+li::selection{
+  color: aqua;
+}
 
     .intro {
       background-color: hsl(158, 72%, 72%);

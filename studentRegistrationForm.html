@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+  </head>
+  <style>
+    .table{margin-left: 50px;}
+    label{color: #d3106b;}
+    input[type="text"]{color: rgb(3, 77, 90);
+    border : 1px solid; border-radius: 10px; border-color: rgb(224, 7, 7);}
+    button:hover{ color: rgb(247, 11, 11);}
+    .head1{ margin-left: 150px;}
+    input[type="checkbox"]{ accent-color: red;}
+    input [type="radio" name="gender"]{ accent-color: red;}
+    
+  </style>
+  <body>
+<h3 class="head1">Student Registration Form</h3>
+    <form>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><label>First Name</label></td>
+            <td>
+              <input
+                type="text"
+                placeholder="capital letters only"
+                required
+                autofocus
+                maxlength="15"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Last Name</label></td>
+            <td>
+              <input type="text" placeholder="capital letters only" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Age</label></td>
+            <td><input type="number" placeholder="only numbers" required /></td>
+          </tr>
+          <tr>
+            <td><label>Date Of Birth</label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td><label>Mobile No.</label></td>
+            <td><input type="number" placeholder="max 10 digits" /></td>
+          </tr>
+          <tr>
+            <td><label>Email ID</label></td>
+            <td><input type="text" placeholder="abc@gmail.com" /></td>
+          </tr>
+
+          <tr>
+            <td><label>state</label></td>
+            <td><input type="text" value="MH" readonly /></td>
+          </tr>
+          <tr>
+            <td><label>Country</label></td>
+            <td><input type="text" value="india" /></td>
+          </tr>
+          <tr>
+            <td><label>Available in week</label></td>
+            <td><input type="week" /></td>
+          </tr>
+          <tr>
+            <td><label>Available in time</label></td>
+            <td><input type="time" /></td>
+          </tr>
+          <tr>
+            <td><label>Profile Photo</label></td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><label>Upload Graduation Marksheets</label></td>
+            <td><input type="file" multiple /></td>
+          </tr>
+          <tr>
+            <td><label>Graduation</label></td>
+            <td>
+              <select>
+                <option>BE</option>
+                <option>BCA</option>
+                <option>B.Sc</option>
+                <option>B.Cs</option>
+                <option>B.Tech</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Select Gender</label></td>
+            <td>
+              <input type="radio" name="gender" /><label>Male</label>
+              <input type="radio" name="gender" /><label>Female</label>
+              <input type="radio" name="gender" /><label>Other</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Select Training Course</label></td>
+            <td>
+              <input type="checkbox" />
+              <label>Angular</label>
+              <input type="checkbox" />
+              <label>Ract</label>
+              <input type="checkbox" />
+
+              <label>JAVA</label>
+              <input type="checkbox" />
+              <label>Teasting</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Present Address</label></td>
+            <td><textarea rows="6" cols="30"></textarea></td>
+          </tr>
+          <tr>
+            <td><label>Password</label></td>
+            <td><input type="password" /></td>
+          </tr>
+          <tr>
+            <td><button type="submit"> submit</button></td>
+            <td><button type="reset"> Reset</button></td>
+          </tr>
+          <tr> 
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
